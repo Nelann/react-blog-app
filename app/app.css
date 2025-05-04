@@ -119,6 +119,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background/80 text-foreground/80 transition-all duration-200;
+    @apply bg-background/80 text-foreground/80;
   }
 }
