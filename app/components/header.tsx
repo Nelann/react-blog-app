@@ -13,6 +13,10 @@ export default function Header() {
               <AvatarImage
                 src="https://avatars.githubusercontent.com/u/49295389?v=4"
                 alt="avatar"
+                decoding="async"
+                loading="lazy"
+                width={32}
+                height={32}
               />
               <AvatarFallback>Ne</AvatarFallback>
             </Avatar>
