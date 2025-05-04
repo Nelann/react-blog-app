@@ -28,7 +28,6 @@ export default function Header() {
                 : "text-slate-600/30 hover:text-zinc-600 dark:text-slate-200/50 dark:hover:text-slate-200 transition-colors duration-150"
             }
             to="/"
-            viewTransition
           >
             Home
           </NavLink>
@@ -40,7 +39,6 @@ export default function Header() {
                 : "text-slate-600/30 hover:text-zinc-600 dark:text-slate-200/50 dark:hover:text-slate-200 transition-colors duration-150"
             }
             to="/blog"
-            viewTransition
           >
             Blog
           </NavLink>
@@ -52,7 +50,6 @@ export default function Header() {
                 : "text-slate-600/30 hover:text-zinc-600 dark:text-slate-200/50 dark:hover:text-slate-200 transition-colors duration-150"
             }
             to="/contact"
-            viewTransition
           >
             Contact
           </NavLink>
